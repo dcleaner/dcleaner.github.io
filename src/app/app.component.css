@@ -1,12 +1,5 @@
-.App {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
 .App div {
-  display: inline-block;
-  width: 100%;
+  text-align: center;
 }
 
 .Toolbar__margin {
