@@ -3,3 +3,11 @@
     background: #DDDDDD;
     height: 80px;
 }
+
+.Toolbar h1{
+    margin : 0;
+}
+
+.Toolbar a{
+    margin-right: 10px;
+}
