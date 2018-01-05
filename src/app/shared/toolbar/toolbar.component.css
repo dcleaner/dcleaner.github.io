@@ -1,12 +1,37 @@
 .Toolbar {
     position: fixed;
-    border-bottom: .1px solid #DDDDDD;
     background: #FFF;
     width: 100%;
-    height: 80px;
     z-index: 1;
 }
 
-.Toolbar a{
+.Toolbar__Title {
+    color : rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.Toolbar__Title strong {
+    color : #7151FC;
+    font-size: 2rem;
+}
+
+.Toolbar__Title:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Toolbar__NavLink {
     margin-right: 10px;
+    color : #333333;
+}
+
+.Toolbar__NavLink:hover {
+    color: #7151FC;
+}
+
+.Toolbar__Menu {
+    border-bottom: 3px solid transparent;
+}
+
+.Toolbar__Menu:hover {
+    border-bottom: 3px solid #7151FC;
 }
