@@ -1,13 +1,19 @@
 import React from 'react';
 import './main-header-image.component.css';
 
+import search_IMAGE from '../../../../../assets/search.gif';
+import gallog_IMAGE from '../../../../../assets/gallog.gif';
+import search_reply_IMAGE from '../../../../../assets/search_reply.gif';
+import gall_reply_IMAGE from '../../../../../assets/gall_reply.gif';
+
+
 export default function MainHeaderImageComponent(){
 
     var demos = [
-        'https://raw.githubusercontent.com/u4bi/dc-cleaner2/master/assets/search.gif',
-        'https://raw.githubusercontent.com/u4bi/dc-cleaner2/master/assets/gallog.gif',
-        'https://raw.githubusercontent.com/u4bi/dc-cleaner2/master/assets/search_reply.gif',
-        'https://raw.githubusercontent.com/u4bi/dc-cleaner2/master/assets/gall_reply.gif'
+        search_IMAGE,
+        gallog_IMAGE,
+        search_reply_IMAGE,
+        gall_reply_IMAGE
     ];
 
     var selectedDemo = 0;

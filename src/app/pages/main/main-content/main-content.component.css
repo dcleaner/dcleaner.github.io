@@ -1,4 +1,96 @@
 .MainContent {
-    height: 300px;
     background: #f8f8f8;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+	margin-bottom: 4rem;
+	margin-top : 2rem;
+}
+
+.MainContent__Text {
+    color: #1f1f1f;
+    /* margin-bottom: 1rem; */
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+/* .MainContent__Image {
+    width: 100%;
+    max-width: 720px;
+} */
+
+
+.MainContent__Image__wrapper {
+	padding: 5em 0;
+	text-align: center;
+}
+.MainContent__Image__box {
+	position: relative;
+	display: inline-block;
+	margin: 0 3em;
+}
+.MainContent__Image__figure,
+.MainContent__Image__shadow {
+	margin: 0;
+	padding: 0;
+	-webkit-transform: rotateX(45deg) rotateZ(-25deg);
+	transform: rotateX(45deg) rotateZ(-25deg);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.MainContent__Image__figure {
+	position: relative;
+}
+.MainContent__Image__figure img {
+	vertical-align: bottom;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.MainContent__Image__figure::before,
+.MainContent__Image__figure::after {
+	content: '';
+	position: absolute;
+}
+.MainContent__Image__figure::before {
+	bottom: -8px;
+	left: 0;
+	background-color: #d0d0d0;
+	width: 100%;
+	height: 16px;
+	-webkit-transform: rotateX(90deg) translateY(-8px);
+	transform: rotateX(90deg) translateY(-8px);
+}
+.MainContent__Image__figure::after {
+	top: 0;
+	left: -8px;
+	width: 16px;
+	height: 100%;
+	background-color: #bbb;
+	-webkit-transform: rotateY(90deg) translateX(8px);
+	transform: rotateY(90deg) translateX(8px);
+}
+.MainContent__Image__shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	box-shadow: -35px 45px 15px rgba(0,0,0,.1);
+}
+.MainContent__Image__box:hover .MainContent__Image__figure,
+.MainContent__Image__box:hover .MainContent__Image__shadow {
+	-webkit-transform: rotateX(0) rotateZ(0);
+	transform: rotateX(0) rotateZ(0);
+}
+.MainContent__Image__box:hover .MainContent__Image__figure img {
+	-webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    box-shadow: 0 5px 45px rgba(0,0,0,.2);
+}
+.MainContent__Image__box:hover .MainContent__Image__shadow {
+	box-shadow: 0 5px 45px rgba(0,0,0,.2);
 }
