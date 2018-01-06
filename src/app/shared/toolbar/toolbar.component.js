@@ -10,8 +10,24 @@ export default function ToolbarComponent(){
     var onRoute = () => {
     };
 
-    var onToggle = () => Array.from(document.querySelectorAll('.Toolbar__Toggle')).map(e => e.style.display = window.getComputedStyle(e, 'style').getPropertyValue('display') === 'none' ? 'flex' : 'none');
+    var onToggle = () => Array.from(document.querySelectorAll('.Toolbar__Toggle')).map(e => {
+        
+        window.getComputedStyle(e, 'style').getPropertyValue('display') === 'none' ? [e.style.display = 'flex', flag = true] : [e.style.display = 'none', , flag = false];
 
+    });
+
+    window.addEventListener('resize', () => {
+        if(window.innerWidth < 768 && flag) {
+            onToggle();
+            
+        }
+
+        if(window.innerWidth > 768 && !flag) {
+            onToggle();
+            
+        }
+    });
+    
     return (
         <div className='Toolbar'>
             <Menu pointing stackable>
