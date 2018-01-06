@@ -12,7 +12,7 @@ class ToolbarComponent extends Component {
         if(window.innerWidth < 768 && this.flag) this.onToggle();
     }
 
-    onToggle = () => Array.from(document.querySelectorAll('.Toolbar__Toggle')).map(e => window.getComputedStyle(e, 'style').getPropertyValue('display') === 'none' ? [e.style.display = 'flex', this.flag = true] : [e.style.display = 'none', , this.flag = false] );
+    onToggle = () => Array.from(document.querySelectorAll('.Toolbar__Toggle')).map(e => window.getComputedStyle(e, 'style').getPropertyValue('display') === 'none' ? [e.style.display = 'flex', this.flag = true] : [e.style.display = 'none', this.flag = false] );
 
     constructor(){
 

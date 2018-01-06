@@ -14,5 +14,6 @@
   "scripts": {
     "start": "export PORT=7777 && export HOST=0.0.0.0 && react-scripts start",
     "build": "react-scripts build"
-  }
+  },
+  "homepage": "https://dcleaner.github.io"
 }
