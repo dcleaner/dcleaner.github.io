@@ -1,3 +1,32 @@
 .MainHeaderText {
+    position:relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;     
     height : 300px;
+}
+
+.MainHeaderText__Wrapper {
+
+}
+
+
+.MainHeaderText__Wrapper h1 {
+    font-size: 3rem !important;
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+.MainHeaderText__Wrapper h3 {
+    color: #666666;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+.MainHeaderText__Wrapper__Sub {
+    max-width: 29rem;
+    margin: auto;
 }
