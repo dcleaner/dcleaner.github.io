@@ -23,7 +23,7 @@ class AppComponent extends Component {
                             <ToolbarComponent />
                             <div className='Toolbar__margin' />
                         </Grid.Column>
-                        <Grid.Column mobile={ 16 } tablet={ 14 } computer={ 14 }>
+                        <Grid.Column width={ 16 }>
                             <Switch>
                                 <Route exact path='/' component = { MainComponent } />
                                 <Route exact path='/info' component = { InfoComponent } />
@@ -33,6 +33,8 @@ class AppComponent extends Component {
                                 <Route exact path='/regist' component = { RegistComponent } />
                                 <Redirect from="**" to='/'/>
                             </Switch>
+                        </Grid.Column>
+                        <Grid.Column mobile={ 16 } tablet={ 14 } computer={ 14 }>
                             <FooterComponent />
                         </Grid.Column>
                     </Grid>

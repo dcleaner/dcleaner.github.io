@@ -1,0 +1,9 @@
+.MainFooterButton {
+
+}
+
+.MainFooter__Button {
+    background-color: #7151FC !important;
+    font-weight: 500 !important;
+    border-radius: 0 !important;
+}

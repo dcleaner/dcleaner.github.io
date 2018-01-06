@@ -15,7 +15,7 @@ export default function FooterComponent(){
                 </Grid.Column>
                 <Grid.Column mobile={ 16 } tablet={ 4 } computer={ 3 }>
                     <div className='Footer__Grid Image' >
-                        <img className='Footer__Logo' src={ logo } />
+                        <img className='Footer__Logo' src={ logo } alt='dcleaner logo' />
                     </div>
                 </Grid.Column>                
             </Grid>

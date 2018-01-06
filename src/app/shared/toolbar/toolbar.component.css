@@ -35,6 +35,7 @@
 
 .Toolbar__Toggle__Btn {
     display: none !important;
+    color : rgba(0, 0, 0, 0.5) !important;
 }
 
 @media (max-width:768px) {

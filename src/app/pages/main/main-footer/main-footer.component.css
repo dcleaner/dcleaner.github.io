@@ -1,3 +1,24 @@
 .MainFooter {
-    height: 300px;
+    margin-bottom: 2rem;
+}
+
+.MainFooter__Children {
+    position:relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;     
+    height : 150px;
+}
+
+.MainFooterText__Wrapper h3{
+    color: #666666;
+    font-weight: 400;
+}
+
+.MainFooterText__Wrapper h1{
+    color: #1f1f1f;
+    font-weight: 550;
 }
