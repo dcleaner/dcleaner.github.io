@@ -1,3 +1,30 @@
 .Footer {
-    height: 300px;
+    margin-bottom: 2rem;
+}
+
+.Footer__Grid {
+    text-align: left !important;
+}
+
+.Footer__Grid.Image {
+    background: #f2f2f2;
+    border-radius: 10px;
+}
+
+.Footer__Logo {
+    width: 55px;
+}
+
+@media (max-width:768px) {
+
+
+    .Footer__Grid.Text {
+        text-align: center !important;
+    }
+
+    .Footer__Grid.Image {
+        width: 50%;
+        margin: auto;
+    }
+
 }
