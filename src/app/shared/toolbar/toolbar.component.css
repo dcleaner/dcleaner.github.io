@@ -24,14 +24,43 @@
     color : #333333;
 }
 
-.Toolbar__NavLink:hover {
-    color: #7151FC;
-}
-
 .Toolbar__Menu {
     border-bottom: 3px solid transparent;
 }
 
 .Toolbar__Menu:hover {
-    border-bottom: 3px solid #7151FC;
+    color: #7151FC !important;
+    border-bottom: 2.5px solid #7151FC;
+}
+
+.Toolbar__Toggle__Btn {
+    display: none !important;
+}
+
+@media (max-width:768px) {
+
+    .ui.menu:not(.vertical) .left.menu,
+    .ui.menu:not(.vertical) .right.menu {
+        display: none;
+    }
+
+    .Toolbar__Toggle__Btn {
+        display: initial !important;
+        width: 100%;
+    }
+
+    .Toolbar__Title {
+        margin-right: 20%;
+    }
+
+    .Toolbar__Toggle__Btn__Wrapper {
+        position: absolute;
+        right: 1rem;
+        width: 20%;
+    }
+
+    .Toolbar__Menu:hover{
+        /* background: red !important; */
+    }
+
 }
