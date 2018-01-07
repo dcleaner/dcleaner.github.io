@@ -1,3 +1,50 @@
 .Price {
-    height: 900px;
+
+}
+
+.Price__Card {
+    margin: auto !important;
+}
+
+.Price__Card img {
+    width: 210px;
+    height: 210px;
+    margin: auto;
+}
+
+.Price__Header {
+    position:relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;    
+    height: 200px;
+}
+
+.Price__Header:hover {
+    background: #7151fc;
+    color: #fff;
+}
+
+.Price__Buy__Wrapper {
+    text-align: right !important;
+}
+
+.Price__Buy__Button {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+
+    background-color: #fff !important;
+    color: #7151fc !important;
+    border: 1px solid #7151fc !important;
+
+    font-weight: 500 !important;
+    border-radius: 0 !important;
+}
+
+.Price__Buy__Button:hover {
+    background-color: #7151FC !important;
+    color: #fff !important;
 }
