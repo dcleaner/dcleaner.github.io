@@ -56,11 +56,7 @@ class ToolbarComponent extends Component {
 
                     <Menu.Menu position='right' className='Toolbar__Toggle'>
                         <Menu.Item name='login' className='Toolbar__Menu' onClick={ this.onRoute }>
-                            로그인
-                        </Menu.Item>
-
-                        <Menu.Item name='regist' className='Toolbar__Menu' onClick={ this.onRoute }>
-                            결제등록
+                            내 제품키 확인
                         </Menu.Item>
                     </Menu.Menu>
                 </Menu>

@@ -10,7 +10,6 @@ import InfoComponent from './pages/info/info.component';
 import PriceComponent from './pages/price/price.component';
 import SupportComponent from './pages/support/support.component';
 import LoginComponent from './pages/login/login.component';
-import RegistComponent from './pages/regist/regist.component';
 import FooterComponent from './shared/footer/footer.component.js';
 
 class AppComponent extends Component {
@@ -30,7 +29,6 @@ class AppComponent extends Component {
                                 <Route exact path='/price' component = { PriceComponent } />
                                 <Route exact path='/support' component = { SupportComponent } />
                                 <Route exact path='/login' component = { LoginComponent } />
-                                <Route exact path='/regist' component = { RegistComponent } />
                                 <Redirect from="**" to='/'/>
                             </Switch>
                         </Grid.Column>

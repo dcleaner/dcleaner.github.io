@@ -4,6 +4,9 @@ import './price.component.css';
 import { Grid, Card, Icon, Button } from 'semantic-ui-react';
 
 export default function PriceComponent(){
+
+    var onKaKao = () => window.open('https://open.kakao.com/o/suKdM9E');
+    
     return (
         <div className='Price'>
             <Grid centered={ true }>
@@ -73,7 +76,7 @@ export default function PriceComponent(){
                 </Grid.Column>
                 <Grid.Column  width={ 14 }>
                     <div className='Price__Buy__Wrapper'>
-                        <Button className='Price__Buy__Button' size='massive' color='violet'>
+                        <Button className='Price__Buy__Button' size='massive' color='violet' onClick={ onKaKao }>
                             구매하기
                         </Button>
                     </div>
