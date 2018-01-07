@@ -8,10 +8,15 @@ export default function LoginComponent(){
 
     return (
         <div className='Login'>
-            <div className='Login__Input'>
-                <Search 
-                    noResultsMessage='등록된 정보가 없습니다.'
-                />
+            
+            <div className='Login_Search__Wrapper'>
+                <h1>부여받은 Access Token을 입력해주세요</h1>
+
+                <div className='Login__Input'>
+                    <Search
+                        noResultsMessage='등록된 정보가 없습니다'
+                    />
+                </div>
             </div>
         </div>
     );

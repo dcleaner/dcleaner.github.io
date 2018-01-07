@@ -18,7 +18,7 @@ class ToolbarComponent extends Component {
     constructor(){
 
         super();
-        
+
         window.addEventListener('resize', () => {
             if(window.innerWidth < 768 && this.flag) this.onToggle();
             if(window.innerWidth > 768 && !this.flag) this.onToggle();

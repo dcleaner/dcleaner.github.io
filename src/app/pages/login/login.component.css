@@ -6,3 +6,22 @@
     width: fit-content;
     margin:  auto;
 }
+
+.Login_Search__Wrapper {
+
+}
+
+.Login_Search__Wrapper h1 {
+    color: #1f1f1f;    
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.Login_Search__Wrapper .ui.search .prompt {
+    width : 250px;
+}
+
+.Login_Search__Wrapper .ui.search .prompt:focus {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
