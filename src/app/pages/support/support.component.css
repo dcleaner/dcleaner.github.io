@@ -1,3 +1,12 @@
 .Support {
-    height: 900px;
+    height: 400px;
+}
+
+.Support__Title {
+    text-align: left !important;
+}
+
+.Support__Subheader {
+    line-height: 200% !important;
+    width : fit-content;
 }
