@@ -9,6 +9,7 @@ class ToolbarComponent extends Component {
     
     onRoute = (e, { name }) => {
         this.props.history.push(name);
+        window.scrollTo(0, 0);
         if(window.innerWidth < 768 && this.flag) this.onToggle();
     }
 
