@@ -21,7 +21,7 @@ export default function SupportComponent(){
                                 </Header.Subheader>
                             }
                             position='right top'                            
-                            content='API키 등록 후 다운 받으실 수 있습니다'
+                            content='Access Token과 동봉하여 발송됩니다'
                             inverted
                         />
                     </Header>

@@ -41,7 +41,7 @@ export default function PriceComponent(){
                             <Card.Content>
                             <Card.Header>실버</Card.Header>
                             <Card.Meta>
-                                <span>다중 계정 허용</span>
+                                <span>다중 계정 허용 X 3</span>
                             </Card.Meta>
                             <Card.Description>
                                 ₩ 30,000
@@ -62,15 +62,15 @@ export default function PriceComponent(){
                         <Card.Content>
                         <Card.Header>골드</Card.Header>
                         <Card.Meta>
-                            <span>키 제한 없는 프로그램 제공</span>
+                            <span>다중 계정 허용 X 10</span>
                         </Card.Meta>
                         <Card.Description>
-                            ₩ 50,000
+                            ₩ 40,000
                         </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
                             <Icon />
-                            라이센스 발급
+                            최초 구매 후 무기한
                         </Card.Content>
                     </Card>
                 </Grid.Column>
