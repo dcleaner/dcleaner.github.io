@@ -39,9 +39,8 @@
 }
 
 @media (max-width:768px) {
-
-    .ui.menu:not(.vertical) .left.menu,
-    .ui.menu:not(.vertical) .right.menu {
+    
+    .Toolbar__Toggle {
         display: none;
     }
 
