@@ -1,3 +1,8 @@
 .Login {
-    height: 900px;
+    height: 400px;
+}
+
+.Login__Input {
+    width: fit-content;
+    margin:  auto;
 }
