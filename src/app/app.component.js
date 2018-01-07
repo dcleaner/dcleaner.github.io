@@ -6,7 +6,6 @@ import { Grid } from 'semantic-ui-react';
 
 import ToolbarComponent from './shared/toolbar/toolbar.component.js';
 import MainComponent from './pages/main/main.component';
-import InfoComponent from './pages/info/info.component';
 import PriceComponent from './pages/price/price.component';
 import SupportComponent from './pages/support/support.component';
 import LoginComponent from './pages/login/login.component';
@@ -25,7 +24,6 @@ class AppComponent extends Component {
                         <Grid.Column width={ 16 }>
                             <Switch>
                                 <Route exact path='/' component = { MainComponent } />
-                                <Route exact path='/info' component = { InfoComponent } />
                                 <Route exact path='/price' component = { PriceComponent } />
                                 <Route exact path='/support' component = { SupportComponent } />
                                 <Route exact path='/login' component = { LoginComponent } />

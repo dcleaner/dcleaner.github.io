@@ -43,7 +43,7 @@ class ToolbarComponent extends Component {
                     </Menu.Item>
 
                     <Menu.Menu position='left' className='Toolbar__Toggle'>
-                        <Menu.Item name='info' className='Toolbar__Menu' onClick={ this.onRoute }>
+                        <Menu.Item name='/' className='Toolbar__Menu' onClick={ this.onRoute }>
                             특징
                         </Menu.Item>
                         <Menu.Item name='price' className='Toolbar__Menu' onClick={ this.onRoute }>
