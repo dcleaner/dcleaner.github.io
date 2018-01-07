@@ -9,10 +9,17 @@
 .Footer__Grid.Image {
     background: #f2f2f2;
     border-radius: 10px;
+    width: 230px;
+    cursor: pointer;
 }
 
 .Footer__Logo {
     width: 55px;
+    margin-right: 10px;
+}
+
+.Footer__Github {
+    width: 160px;
 }
 
 @media (max-width:768px) {
@@ -23,7 +30,6 @@
     }
 
     .Footer__Grid.Image {
-        width: 50%;
         margin: auto;
     }
 

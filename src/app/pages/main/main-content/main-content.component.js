@@ -12,15 +12,15 @@ export default function MainContentComponent(){
 
             <div className='MainContent__Image__wrapper'>
                 <div className='MainContent__Image__box'>
-                    <figure className='MainContent__Image__figure'><img src={ demo_0 } /></figure>
+                    <figure className='MainContent__Image__figure'><img src={ demo_0 } alt='demo 0' /></figure>
                 <div className='MainContent__Image__shadow'></div>
                 </div>
                 <div className='MainContent__Image__box'>
-                    <figure className='MainContent__Image__figure'><img src={ demo_1 } /></figure>
+                    <figure className='MainContent__Image__figure'><img src={ demo_1 } alt='demo 1' /></figure>
                 <div className='MainContent__Image__shadow'></div>
                 </div>
                 <div className='MainContent__Image__box'>
-                    <figure className='MainContent__Image__figure'><img src={ demo_2 } /></figure>
+                    <figure className='MainContent__Image__figure'><img src={ demo_2 } alt='demo 2' /></figure>
                 <div className='MainContent__Image__shadow'></div>
                 </div>
             </div>
