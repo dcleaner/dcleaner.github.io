@@ -6,7 +6,7 @@ import { Menu, Button } from 'semantic-ui-react';
 class ToolbarComponent extends Component {
 
     flag = false;
-    
+
     onRoute = (e, { name }) => {
         this.props.history.push(name);
         window.scrollTo(0, 0);
@@ -15,17 +15,18 @@ class ToolbarComponent extends Component {
 
     onToggle = () => Array.from(document.querySelectorAll('.Toolbar__Toggle')).map(e => window.getComputedStyle(e, 'style').getPropertyValue('display') === 'none' ? [e.style.display = 'flex', this.flag = true] : [e.style.display = 'none', this.flag = false] );
 
-    constructor(){
-
-        super();
+    componentDidMount(){
 
         window.addEventListener('resize', () => {
-            if(window.innerWidth < 768 && this.flag) this.onToggle();
-            if(window.innerWidth > 768 && !this.flag) this.onToggle();
+
+            if( (window.innerWidth < 768 && this.flag) || (window.innerWidth > 768 && !this.flag)) this.onToggle();
+
         });
+
     }
 
     render() {
+
         return (
             <div className='Toolbar'>
                 <Menu pointing stackable>

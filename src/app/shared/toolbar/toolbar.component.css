@@ -40,7 +40,6 @@
 
 @media (max-width:768px) {
     
-    .Toolbar__Toggle,
     .ui.menu:not(.vertical) .left.menu,
     .ui.menu:not(.vertical) .right.menu {
         display: none;
