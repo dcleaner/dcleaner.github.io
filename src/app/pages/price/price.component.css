@@ -32,6 +32,14 @@
     text-align: right !important;
 }
 
+.Price__Buy__Wrapper h4 {
+    color: rgba(0,0,0,.4);
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+}
+
 .Price__Buy__Button {
     padding-right: 3rem !important;
     padding-left: 3rem !important;

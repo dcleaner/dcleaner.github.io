@@ -14,7 +14,7 @@ export default function PriceComponent(){
                     <div className='Price__Card__Wrapper'>
                         <Card className='Price__Card'>
                             <div className='Price__Header'>
-                                <h1>Bronse</h1>
+                                <h1>Bronze</h1>
                             </div>
                             <Card.Content>
                             <Card.Header>브론즈</Card.Header>
@@ -22,12 +22,12 @@ export default function PriceComponent(){
                                 <span>기본 제공가</span>
                             </Card.Meta>
                             <Card.Description>
-                                글, 덧글 1당 1원 책정
+                                ₩ 9,000
                             </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
                                 <Icon />
-                                최초 1주일간 제공
+                                최초 구매후 무기한
                             </Card.Content>
                         </Card>
                     </div>
@@ -44,7 +44,7 @@ export default function PriceComponent(){
                                 <span>다중 계정 허용 X 3</span>
                             </Card.Meta>
                             <Card.Description>
-                                ₩ 30,000
+                                ₩ 18,000
                             </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
@@ -62,10 +62,10 @@ export default function PriceComponent(){
                         <Card.Content>
                         <Card.Header>골드</Card.Header>
                         <Card.Meta>
-                            <span>다중 계정 허용 X 10</span>
+                            <span>다중 계정 허용 X 8</span>
                         </Card.Meta>
                         <Card.Description>
-                            ₩ 40,000
+                            ₩ 32,000
                         </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
@@ -76,6 +76,7 @@ export default function PriceComponent(){
                 </Grid.Column>
                 <Grid.Column  width={ 14 }>
                     <div className='Price__Buy__Wrapper'>
+                        <h4>작성글, 덧글 1당 1원 책정 (삭제 대행 지원)</ h4>
                         <Button className='Price__Buy__Button' size='massive' color='violet' onClick={ onKaKao }>
                             구매하기
                         </Button>
