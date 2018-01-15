@@ -1,0 +1,9 @@
+.InfoLayer{
+
+}
+
+@media (min-width:768px) {
+    .InfoLayer:hover {
+        background: rgba(0, 0, 0, 0.1);
+    }
+}

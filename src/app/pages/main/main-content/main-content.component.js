@@ -1,9 +1,9 @@
 import React from 'react';
 import './main-content.component.css';
 
-import demo_0 from '../../../../assets/demo_0.png';
-import demo_1 from '../../../../assets/demo_1.png';
-import demo_2 from '../../../../assets/demo_2.png';
+import demo_0 from '../../../../assets/info_demo3.gif';
+import demo_1 from '../../../../assets/info_demo2.gif';
+import demo_2 from '../../../../assets/result_demo.png';
 
 export default function MainContentComponent(){
     return (
