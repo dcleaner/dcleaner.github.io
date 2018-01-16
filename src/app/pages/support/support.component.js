@@ -39,6 +39,16 @@ export default function SupportComponent(){
                             content='갤로그를 포함한 책정가입니다'
                             inverted
                         />
+                        <Popup
+                            trigger = {
+                                <Header.Subheader className='Support__Subheader'>
+                                    Q. 다중 계정 허용이 뭔가요?
+                                </Header.Subheader>
+                            }
+                            position='right center'                            
+                            content='클리너는 1대의 계정에 영속됩니다'
+                            inverted
+                        />
                     </Header>
                 </Grid.Column>
                 <Grid.Column  mobile={ 14 } tablet={ 7 } computer={ 7 }>
@@ -67,6 +77,16 @@ export default function SupportComponent(){
                         }
                         position='right center'                            
                         content='불가능합니다'
+                        inverted
+                    />
+                    <Popup
+                        trigger = {
+                            <Header.Subheader className='Support__Subheader'>
+                                Q. 마이너갤 가능한가요?
+                            </Header.Subheader>
+                        }
+                        position='right center'                            
+                        content='추후 지원될 예정입니다'
                         inverted
                     />
                     </Header>
