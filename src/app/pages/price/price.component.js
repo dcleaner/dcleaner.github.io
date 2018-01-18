@@ -22,12 +22,12 @@ export default function PriceComponent(){
                                 <span>기본 제공가</span>
                             </Card.Meta>
                             <Card.Description>
-                                ₩ 9,000
+                                ₩ 3,000
                             </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
                                 <Icon />
-                                최초 구매후 무기한
+                                최초 구매후 1주일간
                             </Card.Content>
                         </Card>
                     </div>
@@ -41,15 +41,15 @@ export default function PriceComponent(){
                             <Card.Content>
                             <Card.Header>실버</Card.Header>
                             <Card.Meta>
-                                <span>다중 계정 허용 X 3</span>
+                                <span>기본 제공가</span>
                             </Card.Meta>
                             <Card.Description>
-                                ₩ 18,000
+                                ₩ 5,000
                             </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
                                 <Icon />
-                                최초 구매 후 무기한
+                                최초 구매 후 6개월간
                             </Card.Content>
                         </Card>
                     </div>
@@ -62,10 +62,10 @@ export default function PriceComponent(){
                         <Card.Content>
                         <Card.Header>골드</Card.Header>
                         <Card.Meta>
-                            <span>다중 계정 허용 X 8</span>
+                            <span>다중 계정 허용</span>
                         </Card.Meta>
                         <Card.Description>
-                            ₩ 32,000
+                            ₩ 9,000
                         </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
