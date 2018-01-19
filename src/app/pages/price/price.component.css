@@ -40,6 +40,10 @@
     text-decoration: inherit;
 }
 
+.Price__Buy__Comment__Sub {
+    margin-top : .5rem;
+}
+
 .Price__Buy__Button {
     padding-right: 3rem !important;
     padding-left: 3rem !important;

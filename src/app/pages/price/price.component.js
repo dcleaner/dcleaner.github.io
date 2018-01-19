@@ -22,7 +22,7 @@ export default function PriceComponent(){
                                 <span>기본 제공가</span>
                             </Card.Meta>
                             <Card.Description>
-                                ₩ 3,000
+                                ₩ 9,000
                             </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
@@ -44,7 +44,7 @@ export default function PriceComponent(){
                                 <span>기본 제공가</span>
                             </Card.Meta>
                             <Card.Description>
-                                ₩ 5,000
+                                ₩ 13,000
                             </Card.Description>
                             </Card.Content>
                             <Card.Content extra>
@@ -65,7 +65,7 @@ export default function PriceComponent(){
                             <span>다중 계정 허용</span>
                         </Card.Meta>
                         <Card.Description>
-                            ₩ 9,000
+                            ₩ 15,000
                         </Card.Description>
                         </Card.Content>
                         <Card.Content extra>
@@ -80,6 +80,7 @@ export default function PriceComponent(){
                         <Button className='Price__Buy__Button' size='massive' color='violet' onClick={ onKaKao }>
                             구매하기
                         </Button>
+                        <h4 className='Price__Buy__Comment__Sub'>추가 요금 지불시 등급 전환</ h4>
                     </div>
                 </Grid.Column>
             </Grid>
