@@ -2,26 +2,45 @@
     height: 400px;
 }
 
-.Login__Input {
-    width: fit-content;
+
+.Login__Wrapper {
+    margin : auto;
+}
+
+.Login__Wrapper h1 {
+    color: #1f1f1f;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.Login__Input__Wrapper {
+    width: 80%;
+    max-width: 400px;
     margin:  auto;
 }
 
-.Login_Search__Wrapper {
-
+.Login__Input input{
+    border: 0 !important;
 }
 
-.Login_Search__Wrapper h1 {
-    color: #1f1f1f;    
-    margin-bottom: 3rem;
-    font-size: 2rem;
-    font-weight: 600;
+.Login__Input input:focus {
+    outline: 0 !important;
+    box-shadow: 2px 0 0 3px #7151FC !important;
 }
 
-.Login_Search__Wrapper .ui.search .prompt {
-    width : 250px;
+.ui.card.Login__Input__Token {
+    width: 100%;
+    border: 0 !important;
+    box-shadow: none !important;
+    -webkit-box-shadow : none !important;
 }
 
-.Login_Search__Wrapper .ui.search .prompt:focus {
-    border: 1px solid rgba(0, 0, 0, 0.3);
+.ui.card.Login__Input__Token h2 {
+    overflow: hidden;
+}
+
+.cube.circular.inverted.link.icon {
+    background: #7151FC !important;
 }
