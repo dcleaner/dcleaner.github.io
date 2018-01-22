@@ -1,22 +1,23 @@
 import React from 'react';
 import './login.component.css';
-import { Card, Icon, Input } from 'semantic-ui-react';
+import { Dimmer, Loader, Card, Icon, Input } from 'semantic-ui-react';
 
 export default function LoginComponent(){
     
-    setTimeout(() => document.querySelector('input').focus(), 50);
+    setTimeout(() => document.querySelector('.Login__Input input').focus(), 50);
 
     var onAccess = _ => {
         let [ name, accesskey ] = document.querySelectorAll('.Login__Input input'),
-            notice = document.querySelector('h2'),
-            faild = _ => [ document.querySelector('input').focus(), notice.innerHTML = ''];
+            notice = document.querySelector('.Login__Token__Text'),
+            faild = _ => [ document.querySelector('.Login__Token__Loader').classList.remove('active'), document.querySelector('.Login__Input input').focus(), notice.value = ''];
 
         name.disabled = true;
         accesskey.disabled = true;
+        document.querySelector('.Login__Token__Loader').classList.add('active');
 
         fetch('https://api.ipify.org?format=json').then((resp) => resp.json()).then(e => {
             
-            fetch(`http://127.0.0.1:7776`, {
+            fetch(`https://dcleaner-token.herokuapp.com`, {
                 method: 'POST',
                 body: JSON.stringify({
                     name : name.value,
@@ -25,7 +26,7 @@ export default function LoginComponent(){
                 }),
                 headers: new Headers({ 'Content-Type': 'application/json'})
             }).then(e => e.json())
-                .then(e => e.isAccess ? notice.innerHTML = e.token : faild())
+                .then(e => e.isAccess ? [ document.querySelector('.Login__Token__Loader').classList.remove('active'), notice.value = e.token, notice.disabled = false, notice.select() ] : faild())
                 .catch(e => faild());
 
             name.value = '';
@@ -47,7 +48,10 @@ export default function LoginComponent(){
                 <div className='Login__Input__Wrapper'>
                     <h1>제품키 발급</h1>
                     <Card className='Login__Input__Token'>
-                        <h2> </h2>
+                        <Dimmer inverted className='Login__Token__Loader'>
+                            <Loader>잠시만 기다려주세요 (1 ~ 10초 소요)</Loader>
+                        </Dimmer>
+                        <input className='Login__Token__Text' disabled='true' />
                         <Card.Content extra>
                             <Input className='Login__Input' fluid size='large' placeholder='USER_KEY' />
                         <br />

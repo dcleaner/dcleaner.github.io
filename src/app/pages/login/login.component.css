@@ -9,10 +9,16 @@
 
 .Login__Wrapper h1 {
     color: #1f1f1f;
-    margin-bottom: 3rem;
+    margin-bottom: 2.7rem;
     font-size: 3rem;
     font-weight: 700;
     text-align: left;
+}
+
+.Login__Token__Text {
+    border: 0;
+    outline : 0;
+    color : rgba(0,0,0,.4);
 }
 
 .Login__Input__Wrapper {
