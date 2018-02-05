@@ -76,7 +76,7 @@ export default function PriceComponent(){
                 </Grid.Column>
                 <Grid.Column  width={ 14 }>
                     <div className='Price__Buy__Wrapper'>
-                        <h4>삭제 대행 지원 (작성글, 덧글 1당 2원 책정)</ h4>
+                        <h4>프로그램 미구매 삭제 대행 지원 (작성글, 덧글 1당 2원 책정)</ h4>
                         <Button className='Price__Buy__Button' size='massive' color='violet' onClick={ onKaKao }>
                             구매하기
                         </Button>
