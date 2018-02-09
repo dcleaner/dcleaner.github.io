@@ -65,7 +65,7 @@ export default function PriceComponent(){
                             <span>다중 계정 추가 x 3</span>
                         </Card.Meta>
                         <Card.Description>
-                            ₩ 17,000
+                            ₩ 15,000
                         </Card.Description>
                         </Card.Content>
                         <Card.Content extra>

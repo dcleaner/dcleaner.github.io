@@ -52,7 +52,7 @@ export default function SupportComponent(){
                         <Popup
                             trigger = {
                                 <Header.Subheader className='Support__Subheader'>
-                                    Q. 다중 계정 허용이 뭔가요?
+                                    Q. 다중 계정 추가는 뭔가요?
                                 </Header.Subheader>
                             }
                             position='right center'                            
