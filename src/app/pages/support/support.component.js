@@ -63,7 +63,7 @@ export default function SupportComponent(){
                 </Grid.Column>
                 <Grid.Column  mobile={ 14 } tablet={ 7 } computer={ 7 }>
                     <Header as='h3'>
-                        삭제 대행 관련 질문
+                        미구매 삭제 대행 관련 질문
                         <Popup
                             trigger = {
                                 <Header.Subheader className='Support__Subheader'>
@@ -106,7 +106,17 @@ export default function SupportComponent(){
                             </Header.Subheader>
                         }
                         position='right center'                            
-                        content='추후 지원될 예정입니다'
+                        content='네 가능합니다. (2/13일자 업데이트)'
+                        inverted
+                    />
+                    <Popup
+                        trigger = {
+                            <Header.Subheader className='Support__Subheader'>
+                                Q. 갤로그에 없는 기록도 지울 수 있나요?
+                            </Header.Subheader>
+                        }
+                        position='right center'                            
+                        content='네 가능합니다. (2/13일자 업데이트)'
                         inverted
                     />
                     </Header>

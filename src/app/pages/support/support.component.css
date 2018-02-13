@@ -1,5 +1,5 @@
 .Support {
-    height: 400px;
+
 }
 
 .Support__Title {
@@ -9,4 +9,10 @@
 .Support__Subheader {
     line-height: 200% !important;
     width : fit-content;
+}
+
+@media (min-width:768px) {
+    .Support {
+        height: 400px;
+    }
 }
