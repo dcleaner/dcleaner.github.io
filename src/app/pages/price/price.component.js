@@ -5,7 +5,7 @@ import { Grid, Card, Icon, Button } from 'semantic-ui-react';
 
 export default function PriceComponent(){
 
-    var onKaKao = () => window.open('https://open.kakao.com/o/suKdM9E');
+    var onKaKao = () => window.open('https://pf.kakao.com/_gBPuC');
     
     return (
         <div className='Price'>
