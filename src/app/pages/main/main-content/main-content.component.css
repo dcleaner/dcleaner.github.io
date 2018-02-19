@@ -13,12 +13,6 @@
     font-size: 2rem;
 }
 
-/* .MainContent__Image {
-    width: 100%;
-    max-width: 720px;
-} */
-
-
 .MainContent__Image__wrapper {
 	padding: 5em 0;
 	text-align: center;
@@ -47,7 +41,8 @@
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	width: 100%;
 }
 .MainContent__Image__figure::before,
 .MainContent__Image__figure::after {
