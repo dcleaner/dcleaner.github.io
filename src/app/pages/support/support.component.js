@@ -96,7 +96,7 @@ export default function SupportComponent(){
                             </Header.Subheader>
                         }
                         position='right center'                            
-                        content='불가능합니다'
+                        content='네 가능합니다. (2/28일자 업데이트)'
                         inverted
                     />
                     <Popup
