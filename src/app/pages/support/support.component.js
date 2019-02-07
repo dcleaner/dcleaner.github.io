@@ -33,7 +33,7 @@ export default function SupportComponent(){
                             position='right center'                            
                             content='< 내 제품키 확인 > 메뉴를 확인해주세요'
                             inverted
-                        />
+                        />                   
                     </Header>
                 </Grid.Column>
                 <Grid.Column  mobile={ 14 } tablet={ 7 } computer={ 7 }>
@@ -59,30 +59,50 @@ export default function SupportComponent(){
                             content='클리너는 1대의 계정에 영속됩니다'
                             inverted
                         />
+                        <Popup
+                            trigger = {
+                                <Header.Subheader className='Support__Subheader'>
+                                    Q. 2019년 2월 7일 기준으로 가격정책이 변경되었나요?
+                                </Header.Subheader>
+                            }
+                            position='right top'                            
+                            content='모든 가격 정책이 50% 할인되었습니다.'
+                            inverted
+                        />
                     </Header>
                 </Grid.Column>
                 <Grid.Column  mobile={ 14 } tablet={ 7 } computer={ 7 }>
                     <Header as='h3'>
-                        미구매 삭제 대행 관련 질문
+                        2019년 정책 변경사항
                         <Popup
-                            trigger = {
-                                <Header.Subheader className='Support__Subheader'>
-                                    Q. 글, 덧글 1당 2원이라는 것은 갤로그를 포함한 가격인가요?
-                                </Header.Subheader>
-                            }
-                            position='right top'                            
-                            content='갤로그를 포함한 책정가입니다'
-                            inverted
+                        trigger = {
+                            <Header.Subheader className='Support__Subheader'>
+                                Q. 변경된 사항이 뭔가요?
+                            </Header.Subheader>
+                        }
+                        position='right center'                            
+                        content='모든 가격 정책이 50% 할인되었습니다.'
+                        inverted
                         />
                         <Popup
-                            trigger = {
-                                <Header.Subheader className='Support__Subheader'>
-                                    Q. 얼마나 걸리나요?
-                                </Header.Subheader>
-                            }
-                            position='right top'                            
-                            content='한시간 이내입니다.'
-                            inverted
+                        trigger = {
+                            <Header.Subheader className='Support__Subheader'>
+                                Q. 다중계정 수가 달라졌나요?
+                            </Header.Subheader>
+                        }
+                        position='right center'                            
+                        content='네, 기존 3대에서 5대로 변경되었습니다.'
+                        inverted
+                        />
+                        <Popup
+                        trigger = {
+                            <Header.Subheader className='Support__Subheader'>
+                                Q. 2019년 디시인사이드 개편 후에도 정상적으로 작동하나요?
+                            </Header.Subheader>
+                        }
+                        position='right center'                            
+                        content='네, 갤로그기반 삭제, 마이너갤러리, 유동닉 모두 정상적으로 작동합니다.'
+                        inverted
                         />                        
                     </Header>
                 </Grid.Column>
@@ -120,7 +140,7 @@ export default function SupportComponent(){
                         inverted
                     />
                     </Header>
-                </Grid.Column>
+                </Grid.Column>         
             </Grid>
         </div>
     );

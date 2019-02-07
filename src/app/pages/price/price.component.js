@@ -22,8 +22,11 @@ export default function PriceComponent(){
                                 <span>기본 제공가</span>
                             </Card.Meta>
                             <Card.Description>
-                                ₩ 9,000
+                                ₩ 9,000 → ₩ 4,500
                             </Card.Description>
+                            <Card.Meta>
+                                <span>2019년 가격 변경</span>
+                            </Card.Meta>
                             </Card.Content>
                             <Card.Content extra>
                                 <Icon />
@@ -44,8 +47,11 @@ export default function PriceComponent(){
                                 <span>기본 제공가</span>
                             </Card.Meta>
                             <Card.Description>
-                                ₩ 11,000
+                                ₩ 11,000 → ₩ 5,500
                             </Card.Description>
+                            <Card.Meta>
+                                <span>2019년 가격 변경</span>
+                            </Card.Meta>
                             </Card.Content>
                             <Card.Content extra>
                                 <Icon />
@@ -62,11 +68,14 @@ export default function PriceComponent(){
                         <Card.Content>
                         <Card.Header>골드</Card.Header>
                         <Card.Meta>
-                            <span>다중 계정 추가 x 3</span>
+                            <span>다중 계정 추가 x 3 → x 5</span>
                         </Card.Meta>
                         <Card.Description>
-                            ₩ 15,000
+                            ₩ 15,000 → ₩ 7,500
                         </Card.Description>
+                        <Card.Meta>
+                                <span>2019년 가격 변경</span>
+                            </Card.Meta>
                         </Card.Content>
                         <Card.Content extra>
                             <Icon />
@@ -76,11 +85,11 @@ export default function PriceComponent(){
                 </Grid.Column>
                 <Grid.Column  width={ 14 }>
                     <div className='Price__Buy__Wrapper'>
-                        <h4>프로그램 미구매 삭제 대행 지원 (작성글, 덧글 1당 2원 책정)</ h4>
+                        <h4>프로그램 미구매 삭제 대행 지원 (작성글, 덧글 1당 2원 → 1원 책정)</ h4>
                         <Button className='Price__Buy__Button' size='massive' color='violet' onClick={ onKaKao }>
-                            구매하기
+                            구매문의
                         </Button>
-                        <h4 className='Price__Buy__Comment__Sub'>추가 요금 지불시 등급 전환</ h4>
+                        <h4 className='Price__Buy__Comment__Sub'>구매는 플러스친구 문의바랍니다.</ h4>
                     </div>
                 </Grid.Column>
             </Grid>

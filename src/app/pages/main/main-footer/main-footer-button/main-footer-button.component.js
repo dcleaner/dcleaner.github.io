@@ -15,7 +15,7 @@ class MainFooterButtonComponent extends Component {
         return (
             <div className='MainFooterButton MainFooter__Children'>
                 <Button className='MainFooter__Button' size='massive' color='violet' onClick={ this.onPrice }>
-                    디시클리너 구매하기
+                    디시클리너 구매문의
                 </Button>
             </div>
         );
