@@ -8,7 +8,7 @@ import demo_2 from '../../../../assets/result_demo_1.png';
 export default function MainContentComponent(){
     return (
         <div className='MainContent'>
-            <h1 className='MainContent__Text'>2018년 무술년 (戊戌年) 디시클리너와 함께 새해를 시작하세요.</h1>
+            <h1 className='MainContent__Text'>2019년 기해년 (己亥年) 디시클리너와 함께 새해를 시작하세요.</h1>
 
             <div className='MainContent__Image__wrapper'>
                 <div className='MainContent__Image__box'>
