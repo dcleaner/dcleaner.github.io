@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './app.component.css';
 
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 import { Grid } from 'semantic-ui-react';
 
 import ToolbarComponent from './shared/toolbar/toolbar.component.js';
@@ -15,7 +15,7 @@ import FooterComponent from './shared/footer/footer.component.js';
 class AppComponent extends Component {
     render() {
         return (
-            <Router basename='/' >
+            <HashRouter basename='/' >
                 <div className='App'>
                     <Grid centered={ true }>
                         <Grid.Column  width={ 16 }>
@@ -37,7 +37,7 @@ class AppComponent extends Component {
                         </Grid.Column>
                     </Grid>
                 </div>
-            </Router>
+            </HashRouter>
         );
     }
 }
