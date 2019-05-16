@@ -29,6 +29,7 @@
 }
 
 .Price__Buy__Wrapper {
+    padding-right: .5rem;
     text-align: right !important;
 }
 
