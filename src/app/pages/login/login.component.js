@@ -17,15 +17,9 @@ export default function LoginComponent(){
 
         fetch('https://api.ipify.org?format=json').then((resp) => resp.json()).then(e => {
             
-            fetch(`https://dcleaner-token.herokuapp.com`, {
-                method: 'POST',
-                body: JSON.stringify({
-                    name : name.value,
-                    accesskey : accesskey.value,
-                    session : e.ip
-                }),
-                headers: new Headers({ 'Content-Type': 'application/json'})
-            }).then(e => e.json())
+
+            fetch(`https://d3lmc0k36acdcv.cloudfront.net/create-token/${ name.value }/${ accesskey.value }`)
+            .then(e => e.json())
                 .then(e => e.isAccess ? [ document.querySelector('.Login__Token__Loader').classList.remove('active'), notice.value = e.token, notice.disabled = false, notice.select() ] : faild())
                 .catch(e => faild());
 
