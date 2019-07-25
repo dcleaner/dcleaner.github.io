@@ -73,7 +73,7 @@ export default function PriceComponent(){
                         </Card.Content>
                         <Card.Content extra>
                             <Icon />
-                            최초 구매 후 무기한
+                            최초 구매 후 1년간
                         </Card.Content>
                     </Card>
                 </Grid.Column>
