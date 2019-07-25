@@ -14,7 +14,7 @@ export default function FooterComponent(){
             <Grid centered={ true }>
                 <Grid.Column mobile={ 16 } tablet={ 11 } computer={ 12 }>
                     <div className='Footer__Grid Text' >
-                        Copyright © 2018 - 2019 Dcleaner. All Rights Reserved.
+                        Copyright © 2017 - 2019 Dcleaner. All Rights Reserved.
                     </div>
                 </Grid.Column>
                 <Grid.Column mobile={ 16 } tablet={ 5 } computer={ 4 }>
